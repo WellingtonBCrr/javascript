@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 005</title>
+    <meta name="description" content="">
+    <style>
+        body {
+            background-color: rgb(40, 107, 207);
+            color: wheat;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1>DOM - Document Object Model</h1>        
+        <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+        
+        <p>Aqui vai o resultado</p>
+        
+        <div><p id="unico">Clique em mim</p></div>
+        <script>
+            let p1 = window.document.getElementsByTagName('p')[0]
+            window.document.write('Está escrito acima: ' + p1.innerHTML)
+
+        </script>
+        <script>
+            let p2 = window.document.getElementById('unico')
+            window.document.write('Escreva...' + p2.innerText)
+            
+        </script>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
