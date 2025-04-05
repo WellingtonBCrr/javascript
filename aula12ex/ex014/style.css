@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    Typical Device Breakpoints - 03/2025
+Legenda: P = Pequeno; M = Medio; G = Grande.
+
+TELAS EXTRA-P:              Mínimo  ATÉ 480px
+CELULARES-P:                481px   ATÉ 600px
+CELULARES-G / TABLETS-P:    601px   ATÉ 768px
+TABLETS-M:                  769px   ATÉ 1024px
+NOTEBOOKS-M / PC-P:         1025px  ATÉ 1280px
+PC / TELAS HD:              1281px  ATÉ 1440px
+TELAS-G:                    1441px  ATÉ Máximo
+
+*/
+
+body {
+    background-color: rgb(55, 140, 250);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid rgba(0, 0, 0, 0.700);
+    padding: 14px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.449);
+}
+
+section > div {
+    padding: 14px;
+}
+
+footer {
+color: white;
+text-align: center;
+font-style: italic;
+}
