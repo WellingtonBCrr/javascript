@@ -6,5 +6,7 @@ for (c=1;c<=14;c++) {
 /*
 
 for (Inicialização ; Teste Lógico ; Incremento) {
-    
+    Comando
 }
+
+*/
