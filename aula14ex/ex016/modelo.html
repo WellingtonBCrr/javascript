@@ -14,14 +14,14 @@
 
     <section>
         <div>
-            <p>Início: <input type="number" name="inicio-contador" id="inicio-contador"></p>
-            <p>Fim: <input type="number" name="fim-contador" id="fim-contador"></p>
-            <p>Passo: <input type="number" name="passo-contador" id="passo-contador"></p>
+            <p>Início: <input type="number" name="inicio-contador" id="inicio-contador" value="0"></p>
+            <p>Fim: <input type="number" name="fim-contador" id="fim-contador" value="0"></p>
+            <p>Passo: <input type="number" name="passo-contador" id="passo-contador" min="0" value="0"></p>
             <button id="botao-contador" onclick="contar()">Contar</button>
         </div>
 
         <div>
-            <p>Preparando a contagem...</p>
+            <p id="resultado-contador">Preparando a contagem...</p>
         </div>
     </section>
 
